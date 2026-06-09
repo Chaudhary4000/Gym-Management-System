@@ -1,0 +1,27 @@
+{
+ "cards": [
+  {},
+  {}
+ ],
+ "charts": [
+  {
+   "chart": "",
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-06-09 13:32:42.503471",
+ "dashboard_name": "Gym management",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-06-09 13:32:42.503471",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym management",
+ "owner": "Administrator"
+}

@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "TRA-.####",
+ "creation": "2026-06-08 16:45:16.978742",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "trainer_name",
+  "email",
+  "experience",
+  "photo",
+  "rating",
+  "monthly_fee",
+  "max_clients",
+  "column_break_zrhu",
+  "phone",
+  "specialization",
+  "availability",
+  "bio"
+ ],
+ "fields": [
+  {
+   "fieldname": "trainer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trainer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Experience",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Float",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "monthly_fee",
+   "fieldtype": "Currency",
+   "label": "Monthly Fee"
+  },
+  {
+   "fieldname": "max_clients",
+   "fieldtype": "Int",
+   "label": "Max Clients"
+  },
+  {
+   "fieldname": "column_break_zrhu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "specialization",
+   "fieldtype": "Select",
+   "label": "Specialization",
+   "options": "Select\nCardio\nStrength\nYoga\nBoxing\nDance\nGeneral Fitness"
+  },
+  {
+   "fieldname": "availability",
+   "fieldtype": "Select",
+   "label": "Availability",
+   "options": "Select\nAvailable\nNot Available"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Text Editor",
+   "label": "Bio"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-09 14:39:01.567594",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Trainer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "trainer_name",
+ "track_changes": 1
+}

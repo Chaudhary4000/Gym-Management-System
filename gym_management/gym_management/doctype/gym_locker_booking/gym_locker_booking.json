@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "GYM-LKR-.YYYY.-.####",
+ "creation": "2026-06-08 17:06:55.203579",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_7ebg",
+  "member",
+  "locker_number",
+  "amended_from",
+  "status",
+  "monthly_rent",
+  "column_break_szkx",
+  "locker_size",
+  "start_date",
+  "end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_7ebg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Locker Booking",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Member",
+   "options": "Gym Member",
+   "reqd": 1
+  },
+  {
+   "fieldname": "locker_number",
+   "fieldtype": "Data",
+   "label": "Locker Number"
+  },
+  {
+   "fieldname": "monthly_rent",
+   "fieldtype": "Currency",
+   "label": "Monthly Rent"
+  },
+  {
+   "fieldname": "column_break_szkx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "locker_size",
+   "fieldtype": "Select",
+   "label": "Locker Size",
+   "options": "Select\nSmall\nMedium\nLarge"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Select\nActive\nExpired\nCancelled"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-06-08 17:12:10.046088",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Locker Booking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "GYM-CL-.####",
+ "creation": "2026-06-09 11:39:19.943604",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "class_name",
+  "duration",
+  "price",
+  "column_break_rpps",
+  "category",
+  "capacity",
+  "instructor"
+ ],
+ "fields": [
+  {
+   "fieldname": "class_name",
+   "fieldtype": "Data",
+   "label": "Class Name"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Int",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "column_break_rpps",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "select\nDance\nWeight lifting\nYoga\nExercise"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Int",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "instructor",
+   "fieldtype": "Link",
+   "label": "Instructor",
+   "options": "Gym Trainer"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-09 13:30:58.096689",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Class Master",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "class_name"
+}

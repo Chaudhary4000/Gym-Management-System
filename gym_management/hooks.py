@@ -5,21 +5,31 @@ app_description = "Gym Management System"
 app_email = "dharmendrachaudhary4000@gmail.com"
 app_license = "mit"
 
-# Apps
+
+# hooks.py
+# add_to_apps_screen = [
+#     {
+#         "name": "gym_management",
+#         "logo": "/assets/gym_management/logo.png",
+#         "title": "Gym Management",
+#         "route": "/gym_management",
+#     }
+# ]
+##Apps
 # ------------------
 
 # required_apps = []
 
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "gym_management",
-# 		"logo": "/assets/gym_management/logo.png",
-# 		"title": "Gym Management",
-# 		"route": "/gym_management",
-# 		"has_permission": "gym_management.api.permission.has_app_permission"
-# 	}
-# ]
+##Each item in the list will be shown as an app in the apps page
+add_to_apps_screen = [
+	{
+		"name": "gym_management",
+		"logo": "/assets/gym_management/logo.png",
+		"title": "Gym Management",
+		"route": "/gym_management",
+		"has_permission": "gym_management.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------

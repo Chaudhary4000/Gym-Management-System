@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-08 17:13:39.064061",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise_name",
+  "reps",
+  "rest_time_secs",
+  "column_break_eduf",
+  "sets",
+  "duration_mins",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise_name",
+   "fieldtype": "Data",
+   "label": "Exercise Name"
+  },
+  {
+   "fieldname": "reps",
+   "fieldtype": "Int",
+   "label": "Reps"
+  },
+  {
+   "fieldname": "rest_time_secs",
+   "fieldtype": "Int",
+   "label": "Rest Time (secs)"
+  },
+  {
+   "fieldname": "column_break_eduf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sets",
+   "fieldtype": "Int",
+   "label": "Sets"
+  },
+  {
+   "fieldname": "duration_mins",
+   "fieldtype": "Int",
+   "label": "Duration (mins)"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-06-08 17:27:19.401516",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Workout Plan Exercise",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

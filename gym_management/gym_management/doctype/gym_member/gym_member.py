@@ -1,3 +1,5 @@
+import git
+
 import frappe
 from frappe.model.document import Document
 
@@ -23,3 +25,4 @@ class GymMember(Document):
 
 # def on_cancel(self):
 #     pass
+

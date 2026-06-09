@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"aaa1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Gym Management</b></span>\",\"col\":12}},{\"id\":\"aaa2\",\"type\":\"card\",\"data\":{\"card_name\":\"Members\",\"col\":4}},{\"id\":\"aaa3\",\"type\":\"card\",\"data\":{\"card_name\":\"Trainers\",\"col\":4}}]",
+ "content": "[{\"id\":\"aaa1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Gym Management</b></span>\",\"col\":12}},{\"id\":\"aaa2\",\"type\":\"card\",\"data\":{\"card_name\":\"Members\",\"col\":4}},{\"id\":\"aaa3\",\"type\":\"card\",\"data\":{\"card_name\":\"Trainers\",\"col\":4}},{\"id\":\"Uveu1-IQ9H\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2026-06-09 10:30:07.856611",
  "custom_blocks": [],
  "docstatus": 0,
@@ -112,7 +112,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-06-09 16:35:43.453304",
+ "modified": "2026-06-09 17:42:08.267481",
  "modified_by": "Administrator",
  "module": "Gym Management",
  "name": "Gym Management",
